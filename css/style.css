@@ -1,0 +1,138 @@
+/* Google fonts  */
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  overflow: hidden;
+  background: #ffeaef;
+}
+
+.coffee-section {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+.coffee-section .left-section {
+  padding: 40px 100px;
+  max-width: 579px;
+  margin: 0 auto;
+}
+
+.coffee-section .left-section h1 {
+  font-size: 122px;
+  font-weight: 800;
+  color: #e8b6c2;
+  line-height: 113px;
+  letter-spacing: 5px;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+}
+
+.coffee-section .left-section .image-row {
+  padding-top: 25px;
+}
+
+.coffee-section .left-section .image {
+  width: 100%;
+  background-size: cover;
+  min-height: 145px;
+  background-repeat: no-repeat;
+}
+
+.coffee-section .left-section .image-1 {
+  background: url("../img/1.png");
+}
+
+.coffee-section .left-section .image-2 {
+  background: url("../img/2.png");
+}
+
+.coffee-section .left-section .image-3 {
+  background: url("../img/3.png");
+}
+
+.coffee-section .left-section p {
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  color: #747474;
+  letter-spacing: 3px;
+  font-weight: 400;
+  padding-top: 25px;
+}
+
+.coffee-section .right-section {
+  background: url("../img/4.png");
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.coffee-section .sidebar {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 140px;
+  border-right: 1.5px solid #e8b6c2;
+  text-align: center;
+  padding: 40px 10px;
+}
+
+.coffee-section .sidebar .toggle-icon i {
+  font-size: 31px;
+  color: #e8b6c2;
+  position: relative;
+  left: 6px;
+}
+
+.coffee-section .sidebar .social-icons {
+  position: absolute;
+  bottom: 20px;
+  left: 43%;
+}
+
+.coffee-section .sidebar .social-icons ul {
+  list-style: none;
+}
+
+.coffee-section .sidebar .social-icons ul li {
+  padding-bottom: 20px;
+}
+
+.coffee-section .sidebar .social-icons ul li i {
+  font-size: 31px;
+  color: #e8b6c2;
+}
+
+.scroll-down-text {
+  display: flex;
+  align-items: center;
+  min-width: 300px;
+  transform: rotate(270deg);
+  position: relative;
+  left: -86px;
+  top: 25%;
+}
+
+.scroll-down-text span {
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 2px;
+  font-weight: 600;
+  color: #e8b6c2;
+  font-size: 20px;
+}
+
+.scroll-down-text i {
+  color: #e8b6c2;
+  padding-right: 14px;
+}
